@@ -44,8 +44,6 @@ a {
 
 
 
-
-
 /* Header */
 
 .fab {
@@ -107,6 +105,26 @@ a {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    right: 200px;
+    width: 650px;
     padding: 30px 20px;
+}
+
+.dropdown-menu .box {
+    display: inline-block;
+    width: 24%;
+    margin-bottom: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.dropdown-menu .box ul li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.dropdown-menu .box ul li i {
+    padding-right: 5px;
+    font-size: 0.8em;
 }
