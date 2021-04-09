@@ -80,10 +80,12 @@ a {
 }
 
 .container .left-side.flex {
-     align-self: flex-end;
+     align-self: center;
+     padding-top: 3.5rem;
 }
 
 
 .container .right-side.flex {
-    align-self: flex-end;
+    align-self: center;
+    padding-top: 3.5rem;
 }
