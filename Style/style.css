@@ -17,6 +17,7 @@
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 /* Utilities */
@@ -81,7 +82,7 @@ a {
 
 .container .left-side.flex {
      align-self: center;
-     padding-top: 3.5rem;
+     padding-top: 4rem;
 }
 
 
