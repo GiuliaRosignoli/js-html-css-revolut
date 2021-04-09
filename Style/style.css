@@ -33,9 +33,15 @@ a {
     color: darkslategray;
 }
 
+.marg14 {
+    margin-right: 14px;
+}
+
 .lightgray {
     color: rgb(177, 174, 174);
 }
+
+
 
 /* Header */
 
@@ -45,6 +51,7 @@ a {
 
 
 /* Buttons */
+
 .button {   /* General buttons */
     padding: 6px;
     padding-left: 15px;
@@ -68,7 +75,7 @@ a {
     border: 1px solid transparent;
 }
 
-.container .filler {
+.container .filler {  /* empty space between items */
     flex-grow: 1;
 }
 
