@@ -5,3 +5,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1260px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Utilities */
+
+.flex {
+    display: flex;
+}
+
+.padd14 {
+    padding: 14px;
+}
+
+.darkgray {
+    color: darkslategray;
+}
+
+.lightgray {
+    color: rgb(177, 174, 174);
+}
+
+/* Header */
+
+.fab {
+    font-size: 30px;
+}
+
+
+/* Buttons */
+.button {   /* General buttons */
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.first.button {
+    margin-right: 15px;
+    background-color: rgb(221, 217, 217);
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    border: 1px solid transparent;
+}
+
+.second.button {
+    background-color: black;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.container .filler {
+    flex-grow: 1;
+}
+
+.container .left-side.flex {
+     align-self: flex-end;
+}
+
+
+.container .right-side.flex {
+    align-self: flex-end;
+}
