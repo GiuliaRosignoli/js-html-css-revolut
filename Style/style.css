@@ -44,6 +44,8 @@ a {
 
 
 
+
+
 /* Header */
 
 .fab {
@@ -58,7 +60,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 7px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .first.button {
@@ -89,4 +91,22 @@ a {
 .container .right-side.flex {
     align-self: center;
     padding-top: 3.5rem;
+}
+
+/* List Style  */
+
+.dropdown-menu {
+    list-style: none;
+}
+
+/* Dropdown */
+.right-side .lightgray.with-dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 200px;
+    padding: 30px 20px;
 }
