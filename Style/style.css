@@ -20,6 +20,10 @@ a {
     cursor: pointer;
 }
 
+.pointer:hover, a:hover {
+    color: darkslategray;
+}
+
 /* Utilities */
 
 .flex {
@@ -38,10 +42,19 @@ a {
     margin-right: 14px;
 }
 
+.lightblue {
+    font-size: 0.7em;
+    margin-bottom: 16px;
+    color: rgb(192, 203, 207);
+}
+
 .lightgray {
     color: rgb(177, 174, 174);
 }
 
+.pointer {
+    cursor: pointer;
+}
 
 
 /* Header */
@@ -76,6 +89,10 @@ a {
     border: 1px solid transparent;
 }
 
+.second.button:hover {
+    background-color: darkslategray;
+}
+
 .container .filler {  /* empty space between items */
     flex-grow: 1;
 }
@@ -93,26 +110,31 @@ a {
 
 /* List Style  */
 
-.dropdown-menu {
-    list-style: none;
-}
 
-/* Dropdown */
+/* Dropdowns */
 .right-side .lightgray.with-dropdown {
     position: relative;
 }
 
 .dropdown-menu {
+    display: none; 
     position: absolute;
-    top: 100%;
+    top: 110%;
     width: 650px;
     padding: 30px 20px;
+    list-style: none;
+    border: 1px solid rgba(240, 240, 240, 0.856);
 }
+
+#smaller {
+    width: 150px;
+} 
 
 .dropdown-menu .box {
     display: inline-block;
     width: 24%;
     margin-bottom: 30px;
+    list-style: none;
 }
 
 .hidden {
